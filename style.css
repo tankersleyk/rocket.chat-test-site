@@ -79,6 +79,8 @@ body {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   padding-right: 8px;
+  color: white;
+  margin: 0 0.5em;
 }
 
 .button-hidden-chat {
