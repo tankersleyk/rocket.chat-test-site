@@ -91,3 +91,7 @@ body {
 .button-open-chat {
   right: 40%;
 }
+
+input:focus {
+  outline: none;
+}
