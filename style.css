@@ -55,3 +55,9 @@ body {
   width: 40%;
   height: 100%;
 }
+
+#rocket_chat_button {
+  position: fixed;
+  bottom, right: 0;
+  background-color: #6495ED;
+}
