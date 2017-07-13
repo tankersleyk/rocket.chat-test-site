@@ -11,37 +11,15 @@ body {
   text-align: center;
 }
 
-.left-no-chat {
-  padding: 100px 0 0 0;
-  float: left;
-  width: 30%;
-}
-
-.right-no-chat {
-  padding: 100px 0 0 0;
-  float: right;
-  width: 60%;
-}
-
-.left-chat {
-  padding: 100px 0 0 0;
-  float: left;
-  width: 18%;
-}
-
-.right-chat {
-  padding: 100px 0 0 0;
-  right: 40%;
-  width: 42%;
+.info-text-no-chat {
+  padding-top: 100px;
   text-align: center;
 }
 
-#heading {
-  text-align:center;
-}
-
-#info {
-    position: absolute;
+.info-text-show-chat {
+  padding-top: 100px;
+  right: 40%;
+  text-align: center;
 }
 
 #secret {
