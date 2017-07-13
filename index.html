@@ -17,14 +17,24 @@
   <div id = "rocket">
     <iframe src = "http://demo.rocket.chat"></iframe> <!-- Just going to embed the demo chat -->
   </div>
-  <input type = "button" class = "rocket_chat_button" onclick = "showchat('rocket');">
+  <input type = "button" class = "rocket_chat_button" onclick = "unhide(this, 'rocket');" value = "show chat">
   <p id = "secret">
   Just for scroll :)
   </p>
   </body>
-  <script>
-  function showchat(rocket) {
-    document.getElementByID(rocket).style.display = "block";
+  <script type = "text/javascript">
+  function unhide(button, id) {
+    var x = document.getElementById(id);
+    if (x) {
+      if (x.className == "hidden") {
+        x.className = "unhidden";
+        button.value = "hide chat";
+      }
+      else {
+        x.className = "hidden";
+        buttonn.value = "show chat";
+      }
+    }
   }
   </script>
 </html>
