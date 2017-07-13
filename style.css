@@ -17,6 +17,7 @@ body {
 }
 
 .info-text-show-chat {
+  display: block;
   padding-top: 100px;
   right: 40%;
   text-align: center;
@@ -27,7 +28,7 @@ body {
   padding: 300% 0 0 0;
   text-align: center;
 }
-
+  /* Chat/button */
 .hidden {
   display: none;
 }
