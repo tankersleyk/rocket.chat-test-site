@@ -17,7 +17,7 @@
   <div id = "rocket" class = "hidden">
     <iframe src = "https://demo.rocket.chat" id = "chat"></iframe> <!-- Just going to embed the demo chat -->
   </div>
-  <input type = "button" id = "rocket-chat-button" onclick = "unhide(this, 'rocket');" value = "Show chat">
+  <input type = "button" class = "button-hidden-chat" id = "rocket-chat-button" onclick = "unhide(this, 'rocket');" value = "Show chat">
   <p id = "secret">
   Just for scroll :)
   </p>
@@ -29,12 +29,14 @@
       if (x.className == "hidden") {
         x.className = "unhidden";
         button.value = "Hide chat";
+        button.className = "button-open-chat"
         document.getElementById("leading-text").className = "left-chat";
         document.getElementById("side-content").className = "right-chat";
       }
       else {
         x.className = "hidden";
         button.value = "Show chat";
+        button.className = "button-hidden-chat";
         document.getElementById("leading-text").className = "left-no-chat";
         document.getElementById("side-content").className = "right-no-chat";
       }
