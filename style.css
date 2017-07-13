@@ -19,6 +19,7 @@ body {
 .info-text-show-chat {
   padding-top: 100px;
   text-align: center;
+  margin-right: 45%;
 }
 
 #secret {
@@ -33,13 +34,6 @@ body {
 
 .unhidden{
   display: block;
-}
-
-#rocket {
-  height: 90%;
-  border: none;
-  right: 0;
-  width: 40%;
 }
 
 #chat {
