@@ -17,10 +17,8 @@ body {
 }
 
 .info-text-show-chat {
-  display: block;
   padding-top: 100px;
   right: 40%;
-  text-align: center;
 }
 
 #secret {
