@@ -5,12 +5,10 @@
       <link rel = "stylesheet" type = "text/css" href = "style.css">
   </head>
   <body>
-  <div class = "left-no-chat" id = "leading-text">
+  <div class = "info-text-no-chat">
     <h1 id = 'title'> MIT Media Lab Learning Initiative </h1>
-  </div>
-  <div class = "right-no-chat" id = "side-content">
     <h2 id = "heading"> Test rocket.chat Chat </h2> 
-    <p class = 'info'>
+    <p>
     This is a test website to see how well the rocket.chat chat client works. This test will hopefully help decide whether or not we wish to use this chat client in the Public Library Innovation Exchange website!
     </p>
   </div>
@@ -29,16 +27,14 @@
       if (x.className == "hidden") {
         x.className = "unhidden";
         button.value = "Hide chat";
-        button.className = "button-open-chat"
-        document.getElementById("leading-text").className = "left-chat";
-        document.getElementById("side-content").className = "right-chat";
+        button.className = "button-open-chat";
+        document.getElementsByClassName("info-text-no-chat").className = "info-text-show-chat";
       }
       else {
         x.className = "hidden";
         button.value = "Show chat";
         button.className = "button-hidden-chat";
-        document.getElementById("leading-text").className = "left-no-chat";
-        document.getElementById("side-content").className = "right-no-chat";
+        document.getElementsByClassName("info-text-show-chat").className = "info-text-no-chat";
       }
     }
   }
