@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+  <head>
+      <link rel = "stylesheet" type = "text/css" href = "style.css">
+  </head>
+  <body>
+  <div class = "left" id = "leading-text">
+    <h1 id = 'title'> MIT Media Lab Learning Initiative </h1>
+  </div>
+  <div class = "right" id = "side-content">
+    <h2 id = "heading"> Test rocket.chat Chat </h2> 
+    <p class = 'info'>
+    This is a test website to see how well the rocket.chat chat client works. This test will hopefully help decide whether or not we wish to use this chat client in the Public Library Innovation Exchange website!
+    </p>
+  </div>
+  <div id = "rocket">
+    <iframe src = "http://demo.rocket.chat"></iframe>
+  </div>
+  <input type = "button" class = "rocket_chat_button" onclick = "showchat('rocket');">
+  <p id = "secret">
+  Just for scroll :)
+  </p>
+  </body>
+  <script>
+  function showchat(rocket) {
+    document.getElementByID(rocket).style.display = "block";
+  }
+</html>
