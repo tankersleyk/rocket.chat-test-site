@@ -63,7 +63,9 @@ body {
 }
 
 .button-open-chat {
-  right: 40%;
+  padding-right: 0px;
+  right: 0;
+  width: 4%;
 }
 
 input:focus {

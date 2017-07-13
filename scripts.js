@@ -3,7 +3,7 @@ function unhide(button, id) {
     if (x) {
       if (x.className == "hidden") {
         x.className = "unhidden";
-        button.value = "Hide chat";
+        button.value = "Hide";
         button.className = "button-open-chat";
         document.getElementsByClassName("info-text-no-chat")[0].className = "info-text-show-chat";
       }
