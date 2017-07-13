@@ -48,23 +48,32 @@ body {
 #rocket-chat-button {
   position: fixed;
   bottom: 0;
-  background-color: #578ea9;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-color: #578ea9;
-  color: white;
   cursor:pointer;
 }
 
 .button-hidden-chat {
+  background-color: #578ea9;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-color: #578ea9;
   margin: 0 0.5em;
   right: 0;
 }
 
 .button-open-chat {
+  background-color: white;
+  color: black;
   margin: 0 0;
   right: 0;
+  border:none;
+  text-align: center;
   width: 3.2%;
+  height: 6%;
+}
+
+.button-open-chat:hover {
+  background-color: #DCDCDC;
 }
 
 input:focus {
