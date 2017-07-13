@@ -14,7 +14,7 @@ body {
 .left-no-chat {
   padding: 100px 0 0 0;
   float: left;
-  width:30%;
+  width: 30%;
 }
 
 .right-no-chat {
@@ -72,7 +72,14 @@ body {
 #rocket-chat-button {
   position: fixed;
   bottom: 0;
-  right: 0;
   background-color: #6495ED;
   border: none;
+}
+
+.button-hidden-chat {
+  right: 0;
+}
+
+.button-open-chat {
+  left: 0;
 }
