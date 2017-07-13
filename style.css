@@ -52,20 +52,19 @@ body {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-color: #578ea9;
-  padding-right: 8px;
   color: white;
-  margin: 0 0.5em;
   cursor:pointer;
 }
 
 .button-hidden-chat {
+  margin: 0 0.5em;
   right: 0;
 }
 
 .button-open-chat {
-  padding-right: 0px;
+  margin: 0 0;
   right: 0;
-  width: 4%;
+  width: 3.2%;
 }
 
 input:focus {
