@@ -19,7 +19,7 @@ body {
 .info-text-show-chat {
   padding-top: 100px;
   text-align: center;
-  margin-right: 45%;
+  margin-right: 35%;
 }
 
 #secret {
@@ -40,8 +40,8 @@ body {
   position: fixed;
   right: 0;
   bottom: 0;
-  width: 40%;
-  height: 90%;
+  width: 35%;
+  height: 80%;
   border: none;
 }
 
@@ -66,7 +66,19 @@ body {
   color: #696969;
   margin: 0 0;
   right: 0;
-  top: 4%;
+  top: 20%;
+  border: none;
+  text-align: center;
+  width: 3.2%;
+  height: 6%;
+}
+
+.button-open-chat-admin {
+  background-color: transparent;
+  color: #696969;
+  margin: 0 0;
+  right: 0;
+  top: 14%;
   border: none;
   text-align: center;
   width: 3.2%;
@@ -74,6 +86,11 @@ body {
 }
 
 .button-open-chat:hover {
+  background-color: red;
+  color: white;
+}
+
+.button-open-chat-admin:hover {
   background-color: red;
   color: white;
 }
