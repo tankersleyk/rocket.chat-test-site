@@ -4,7 +4,12 @@ function unhide(button, id) {
       if (x.className == "hidden") {
         x.className = "unhidden";
         button.value = "X";
-        button.className = "button-open-chat";
+        if (window.location.href.search("admin")!=-1) {
+          button.className = "button-open-chat-admin";
+        } 
+        else {
+          button.className = "button-open-chat";
+        }
         document.getElementsByClassName("info-text-no-chat")[0].className = "info-text-show-chat";
       }
       else {
