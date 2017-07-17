@@ -80,15 +80,7 @@ body {
 }
 
 .button-open-chat-admin {
-  background-color: transparent;
-  color: #696969;
-  margin: 0 0;
-  right: 0;
   top: 14%;
-  border: none;
-  text-align: center;
-  width: 3.2%;
-  height: 6%;
 }
 
 .button-open-chat:hover {
