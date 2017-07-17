@@ -5,7 +5,7 @@ function unhide(button, id) {
         x.className = "unhidden";
         button.value = "X";
         if (window.location.href.search("admin")!=-1) {
-          button.className = "button-open-chat-admin";
+          button.className = "button-open-chat button-open-chat-admin";
         } 
         else {
           button.className = "button-open-chat";
