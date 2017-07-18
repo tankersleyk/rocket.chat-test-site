@@ -88,11 +88,6 @@ body {
   color: white;
 }
 
-.button-open-chat-admin:hover {
-  background-color: red;
-  color: white;
-}
-
 input:focus {
   outline: none;
 }
